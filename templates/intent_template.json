@@ -1,0 +1,85 @@
+{
+  "intents": [
+    {
+      "tag": "investment_options",
+      "patterns": [
+        "What investment options do you provide?",
+        "How can I invest my money with your bank?",
+        "Tell me about your investment portfolios",
+        "Do you offer investment advisory services?",
+        "What are your wealth management options?"
+      ],
+      "responses": [
+        "We offer various investment options including mutual funds, stocks, bonds, ETFs, and fixed-income securities. Our advisors can help you build a portfolio based on your risk tolerance and financial goals.",
+        "Our investment services include mutual funds, stocks, bonds, retirement accounts, and professionally managed portfolios. We also offer personalized investment advisory services.",
+        "You can invest through our bank in various vehicles including mutual funds, stocks, bonds, and ETFs. We also offer retirement accounts with tax advantages."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "online_banking",
+      "patterns": [
+        "How do I access online banking?",
+        "Is your online banking secure?",
+        "How to sign up for online banking",
+        "What can I do with your online banking?",
+        "Mobile banking features",
+        "Can I deposit checks online?"
+      ],
+      "responses": [
+        "Our online banking platform allows you to check balances, transfer funds, pay bills, deposit checks, and manage your accounts 24/7. You can access it through our website or mobile app with secure login credentials.",
+        "You can access our online banking through our website or mobile app. It features account management, transfers, bill payments, mobile check deposits, and account alerts. We use industry-leading security protocols to protect your information.",
+        "Our online banking services include account access, fund transfers, bill payments, mobile check deposits, and setting up automatic payments. You can sign up through our website or visit any branch."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "retirement_planning",
+      "patterns": [
+        "What retirement accounts do you offer?",
+        "How can I save for retirement with your bank?",
+        "Tell me about your IRA options",
+        "401k rollover options",
+        "Retirement planning services"
+      ],
+      "responses": [
+        "We offer various retirement accounts including Traditional IRAs, Roth IRAs, 401(k) rollovers, and SEP IRAs. Our financial advisors can help you develop a comprehensive retirement plan based on your age, goals, and risk tolerance.",
+        "Our retirement planning services include Traditional and Roth IRAs, 401(k) rollovers, and personalized retirement planning. We can help you calculate your retirement needs and develop a savings strategy.",
+        "For retirement planning, we offer various IRA accounts, 401(k) rollovers, pension plan management, and personalized retirement planning services to help you prepare for a secure future."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "currency_exchange",
+      "patterns": [
+        "What are your currency exchange rates?",
+        "Can I exchange foreign currency at your bank?",
+        "Do you charge fees for currency exchange?",
+        "How do I exchange money for international travel?",
+        "Foreign currency services"
+      ],
+      "responses": [
+        "We offer currency exchange services for major world currencies. Our rates are updated daily based on market conditions. You can exchange currency at any of our branches, and we recommend calling ahead for large amounts or less common currencies.",
+        "You can exchange foreign currency at any of our branches. We offer competitive exchange rates for major currencies with minimal fees for account holders. For international travel, we recommend ordering currency in advance.",
+        "Our currency exchange services are available at all branches for major world currencies. Rates are updated daily, and account holders receive preferential rates with lower fees."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "overdraft_protection",
+      "patterns": [
+        "How does your overdraft protection work?",
+        "What are overdraft fees?",
+        "How to avoid overdraft charges",
+        "Do you offer overdraft protection?",
+        "Link accounts for overdraft"
+      ],
+      "responses": [
+        "Our overdraft protection service links your checking account to a savings account, credit card, or line of credit to cover transactions when your balance is insufficient. This helps you avoid declined transactions and overdraft fees.",
+        "We offer overdraft protection by linking your checking account to another account or line of credit. If you overdraw your account, funds are automatically transferred to cover the transaction, typically with a lower fee than standard overdraft charges.",
+        "You can set up overdraft protection by linking your checking account to a savings account or credit line. When a transaction would overdraw your account, we automatically transfer funds to cover it, helping you avoid declined transactions and standard overdraft fees."
+      ],
+      "context_set": ""
+    }
+  ]
+} 

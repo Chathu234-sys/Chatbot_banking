@@ -1,0 +1,10 @@
+nltk
+numpy<2.0.0
+flask
+scikit-learn
+schedule
+apscheduler
+tqdm
+colorama
+pandas
+matplotlib

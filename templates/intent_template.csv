@@ -1,0 +1,7 @@
+tag,pattern,response,context
+account_info,What types of accounts do you offer?,We offer several types of accounts including Savings Accounts with competitive interest rates starting at 3.5%, Checking Accounts with no minimum balance requirements, Fixed Deposit accounts with higher returns, and Premium accounts with exclusive benefits.,
+account_info,Tell me about your account options,Our account options include Savings Accounts (3.5% interest), Checking Accounts (no fees), Fixed Deposit accounts (higher returns), and Premium accounts (exclusive benefits).,
+loan_info,What are your current loan rates?,Our current loan rates start at 7.25% for home loans, 10.5% for personal loans, and 8.75% for auto loans. We also offer competitive rates for education and business loans.,
+loan_info,I need a loan,We offer various loan options including personal loans, home loans, auto loans, education loans, and business loans. Would you like information on a specific type of loan?,
+mortgage_info,What are your mortgage options?,We offer fixed-rate mortgages starting at 7.25% APR, adjustable-rate mortgages, jumbo loans for high-value properties, and refinancing options.,
+credit_card_info,Do you have credit cards with rewards?,Yes, we offer several credit cards with rewards programs. Our Gold Card offers 2% cashback on all purchases, the Travel Card offers travel points and no foreign transaction fees, and our Premium Card offers exclusive benefits and higher rewards., 

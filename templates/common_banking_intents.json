@@ -1,0 +1,115 @@
+{
+  "intents": [
+    {
+      "tag": "fee_information",
+      "patterns": [
+        "What are your account fees?",
+        "Do you charge monthly maintenance fees?",
+        "Are there any hidden fees?",
+        "How much do you charge for ATM withdrawals?",
+        "Is there a fee for wire transfers?",
+        "What's your overdraft fee?",
+        "Are there fees for international transactions?",
+        "Do you charge for paper statements?",
+        "Is there a minimum balance fee?"
+      ],
+      "responses": [
+        "Our standard checking account has a $5 monthly maintenance fee, which is waived with direct deposit or a minimum daily balance of $1,500. ATM withdrawals at our network are free, while out-of-network ATMs charge $2.50 plus any fees from the ATM owner. For a complete fee schedule, please visit our website or ask for our fee disclosure document.",
+        "Our fee structure includes a $5 monthly maintenance fee for standard checking (waivable with qualifying activities), no-fee ATM withdrawals at our network, $30 overdraft fees, $3 for paper statements, and various fees for specialized services like wire transfers and rush card delivery. Premium accounts have different fee structures with more free services.",
+        "We offer several account types with different fee structures. Most fees can be avoided with qualifying activities like direct deposit, minimum balances, or electronic statements. I'd be happy to explain the specific fees for the account type you're interested in."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "security_info",
+      "patterns": [
+        "How secure is my account?",
+        "What security measures do you have?",
+        "How do you protect my personal information?",
+        "Is online banking safe?",
+        "What happens if someone steals my card?",
+        "How do I report fraud?",
+        "Do you use two-factor authentication?",
+        "How can I protect my account from fraud?"
+      ],
+      "responses": [
+        "We take security very seriously and use multiple layers of protection including encryption, multi-factor authentication, and 24/7 fraud monitoring. Your accounts are protected by Zero Liability Protection so you won't be responsible for unauthorized transactions if reported promptly. If you notice suspicious activity, please contact us immediately at our fraud hotline.",
+        "Our security measures include 256-bit encryption, multi-factor authentication, automatic logoff, transaction monitoring, and fraud detection systems. We also offer account alerts to notify you of unusual activity. If your card is lost or stolen, contact us immediately at our 24/7 customer service line, and we'll block the card and issue a replacement.",
+        "We protect your account with industry-leading security including encryption, firewall protection, multi-factor authentication, and continuous transaction monitoring. We recommend setting up account alerts, using strong passwords, regularly reviewing your statements, and contacting us immediately if you notice any suspicious activity."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "mobile_banking",
+      "patterns": [
+        "How do I use mobile banking?",
+        "Can I deposit checks with my phone?",
+        "Is mobile banking free?",
+        "What can I do with your mobile app?",
+        "How do I download your banking app?",
+        "Is your mobile app secure?",
+        "Can I pay bills through the mobile app?",
+        "How do I set up mobile alerts?"
+      ],
+      "responses": [
+        "Our mobile banking app offers a complete banking experience including account access, transfers, bill payments, mobile check deposit, card controls, and account alerts. It's free to download from the App Store or Google Play, and uses the same secure login as our online banking. Simply download the app, enter your online banking credentials, and follow the prompts to set up biometric authentication for quick access.",
+        "Our mobile app allows you to check balances, transfer funds, pay bills, deposit checks by taking photos, set up alerts, locate ATMs and branches, and manage your cards. The app is free and available for both iOS and Android. It uses multiple security features including encryption and biometric authentication.",
+        "You can do nearly everything through our mobile app that you can do in a branch: check balances, transfer money, pay bills, deposit checks, view statements, set up alerts, and locate ATMs or branches. The app is free to download and use, though standard data rates from your mobile provider may apply."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "student_banking",
+      "patterns": [
+        "Do you have accounts for students?",
+        "What's your student checking account?",
+        "Are there any student discounts?",
+        "Do you offer student loans?",
+        "Is there a student credit card?",
+        "Banking options for college students",
+        "Do student accounts have fees?"
+      ],
+      "responses": [
+        "We offer a Student Checking account designed specifically for students ages 17-24. It features no monthly maintenance fee, no minimum balance requirement, a free debit card, mobile and online banking, and four free out-of-network ATM withdrawals per month. We also offer student credit cards with lower credit limits and educational resources to help build credit responsibly.",
+        "Our Student Banking package includes a checking account with no monthly fees, no minimum balance requirements, free online and mobile banking, and a fee-free ATM network. Students can also access financial education resources, student credit cards with cashback rewards, and competitive student loan options for education expenses.",
+        "We offer specialized banking services for students including no-fee checking accounts, student credit cards with rewards for good grades, student loan options, and financial education resources. Our Student Checking account has no monthly maintenance fee and includes free online and mobile banking, free personal finance tools, and ATM fee rebates."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "international_banking",
+      "patterns": [
+        "Can I use my card abroad?",
+        "What are the international wire transfer fees?",
+        "Do you charge foreign transaction fees?",
+        "How do I notify you about international travel?",
+        "Can I open an account in another currency?",
+        "What exchange rates do you use?",
+        "How can I send money overseas?"
+      ],
+      "responses": [
+        "Our debit and credit cards can be used internationally at millions of locations. Standard foreign transaction fees are 3% for debit cards and 2-3% for credit cards, depending on the card type. Premium accounts may have reduced or waived fees. We recommend notifying us of your travel plans through online banking or our mobile app to prevent your card from being flagged for suspicious activity.",
+        "For international banking needs, we offer multi-currency accounts, competitive exchange rates for currency conversion, international wire transfers, and global ATM access. Foreign transaction fees range from 1-3% depending on your account type. Premium accounts have reduced or no foreign transaction fees. You can set a travel notice through our mobile app or online banking before traveling.",
+        "Our international services include worldwide ATM and merchant access, international wire transfers, multi-currency accounts, and competitive exchange rates. Standard foreign transaction fees are 3%, but our premium accounts and travel-focused credit cards offer reduced or zero foreign transaction fees. We recommend setting a travel notice when going abroad to ensure uninterrupted card use."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "direct_deposit",
+      "patterns": [
+        "How do I set up direct deposit?",
+        "What's the routing number for direct deposit?",
+        "Can I split my direct deposit?",
+        "How long does direct deposit take?",
+        "When will my direct deposit be available?",
+        "Do you offer early direct deposit?"
+      ],
+      "responses": [
+        "To set up direct deposit, you'll need to provide your employer with our routing number and your account number, which you can find on your checks, in online banking, or in our mobile app. We offer a direct deposit form you can download from our website. Direct deposits are typically available as soon as we receive them, which is often earlier than the scheduled payment date. Many customers receive their funds up to two days earlier than traditional banks.",
+        "Setting up direct deposit is easy. Provide your employer with our routing number (available in online banking or on your checks) and your account number. You can also download a pre-filled direct deposit form from our online banking portal. Funds are typically available immediately when received, often up to two days earlier than the scheduled payday. You can split your deposit between multiple accounts by specifying the percentage or amount for each account.",
+        "For direct deposit, provide your employer with our routing number (visible in online banking or on your checks) and your account number. Direct deposits are available as soon as we receive them, often earlier than the actual payday. You can split your deposit between multiple accounts by specifying amounts or percentages on your direct deposit form. Setting up direct deposit may qualify you for monthly fee waivers on certain accounts."
+      ],
+      "context_set": ""
+    }
+  ]
+} 
